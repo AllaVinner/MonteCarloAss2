@@ -1,0 +1,25 @@
+%% main ASsignemtn 2 task 4 
+
+
+%% Initiate matrices
+d = 2;
+n = 10;
+N = 1000;
+
+X = zeros(d,n,N);
+w = zeros(n,N);
+
+%% Initiate X_i^0 and w_0^i
+%{
+X ~ g_0 
+-> X_i^0 = [0 0]
+
+w = z_0(x)/g_0(x) = 
+
+
+%}
+
+
+
+
+

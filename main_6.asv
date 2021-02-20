@@ -1,0 +1,27 @@
+%% Main 6
+
+
+%% Load and initate
+load C_from_task_4.mat
+d = 2;
+n = 10;
+N = 10000;
+
+
+%% Set up matrices
+
+Y = log(c(2:end));
+k = [1:n]';
+
+M = [ones(length(k),1) k, log(k)];
+
+X = M\Y
+
+%% Transform back to values:
+
+A = exp(
+
+
+
+
+
